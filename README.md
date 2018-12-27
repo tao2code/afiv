@@ -5,7 +5,8 @@
 
 ## Setup
 
-   在运行问题3 之前,需要生成准备的数据文件.
+   在运行问题3 之前,需要生成准备的数据文件
+
    Files.generateSortFiles("data/", 100);
 
    本项目使用maven 进行管理
