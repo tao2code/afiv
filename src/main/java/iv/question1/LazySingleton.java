@@ -34,7 +34,7 @@ public class LazySingleton implements Serializable {
     }
 
     private Object readResolve() throws ObjectStreamException {
-        return instance;
+        return getInstance();
     }
 
 
